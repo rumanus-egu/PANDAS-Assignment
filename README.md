@@ -1,20 +1,20 @@
 # PANDAS-Assignment
 1) Generate an array of zeroes using inbuilt numpy function.
 2) Run the given code and find the dot product of both arrays.
-    import numpy as np
-   a = np.random.randint(2,10, (3,4))
-   b = np.random.randint(2,10, (4,3))
-   print(a)
-   print(b)
-    [[3 6 4 9]
-   [7 4 6 7]
-   [5 6 8 6]]
-   [[2 7 7]
-   [4 3 7]
-   [2 5 3]
-   [5 3 6]]
-   a.dot(b)
-   array([[ 83,  86, 129],
+   - import numpy as np
+   - a = np.random.randint(2,10, (3,4))
+   - b = np.random.randint(2,10, (4,3))
+   - print(a)
+   - print(b)
+      [[3 6 4 9]
+      [7 4 6 7]
+      [5 6 8 6]]
+      [[2 7 7]
+      [4 3 7]
+      [2 5 3]
+      [5 3 6]]
+   - a.dot(b)
+    array([[ 83,  86, 129],
        [ 77, 112, 137],
        [ 80, 111, 137]])
 3) Read the csv file provided using pandas and display the first 5 entries
