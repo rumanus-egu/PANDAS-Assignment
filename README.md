@@ -14,7 +14,7 @@
       [2 5 3]
       [5 3 6]]
    - a.dot(b)
-    array([[ 83,  86, 129],
+   - array([[ 83,  86, 129],
        [ 77, 112, 137],
        [ 80, 111, 137]])
 3) Read the csv file provided using pandas and display the first 5 entries
